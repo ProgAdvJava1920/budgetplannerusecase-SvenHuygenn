@@ -42,5 +42,7 @@ public class AccountTests {
         Account testedAcc = new Account(testIban,name,payments);
 
         assertTrue(testedAcc.getPayments().size() == payments.size());
+
+
     }
 }
